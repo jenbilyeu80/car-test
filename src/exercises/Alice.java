@@ -36,7 +36,7 @@ public class Alice {
 
         int theIndex = theQuoteLowerCase.indexOf(searchTermLowerCase);
         System.out.println("The index is:" + theIndex + " and the length is  " + searchTermLowerCase.length());
-//dfdffdf
+//dfdffdfbh
     }
     public String getUsersSearchTerm(){
         Scanner scanner = new Scanner(System.in);

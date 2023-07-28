@@ -19,9 +19,16 @@ public class ArrayPractice {
             }
         }
     }
-            public void splitAGivenString() {
-                String myProvidedString= "I would not, could not, in a box.  I would not, could not with a fox.  I will not eat them in a house.  I will not eat them with a mouse.";
-                String[] mySplitStrings = myProvidedString.split(" ");
-                System.out.println(Arrays.toString(mySplitStrings));
-            }
-        }
+
+    public void splitAGivenString() {
+        String myProvidedString = "I would not, could not, in a box.  I would not, could not with a fox.  I will not eat them in a house.  I will not eat them with a mouse.";
+        String[] mySplitStrings = myProvidedString.split(" ");
+        System.out.println(Arrays.toString(mySplitStrings));
+    }
+
+    public void splitAGivenStringIntoSentences() {
+        String myProvidedString = "I would not, could not, in a box.  I would not, could not with a fox.  I will not eat them in a house.  I will not eat them with a mouse.";
+        String[] mySplitStrings = myProvidedString.split("\\ . ");
+        System.out.println(Arrays.toString(mySplitStrings));
+    }
+}
